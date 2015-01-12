@@ -10,6 +10,7 @@ RUN apt-get install -y git
 RUN apt-get install -y unzip
 RUN apt-get install -y libncurses5-dev
 RUN apt-get install -y zlib1g-dev
+RUN apt-get install -y clang
 
 USER linuxbrew
 
